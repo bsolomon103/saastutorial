@@ -44,7 +44,7 @@ def generate_branding_snippet(subject: str) -> str:
 
 
 def generate_keywords(subject: str) -> List[str]:
-    openai.api_key = "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"
+    openai.api_key = ""
 
     prompt = f"Generate related branding keywords for {subject}"
     print(prompt)
